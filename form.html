@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-let's start</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Persnol information</legend>
+        <form action="post">
+            <u>
+                <h1>Contact Form</h1>
+            </u>
+            <div>
+                <label for="username">Enter Your Username :<br></label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" autofocus><br><br>
+                <label for="email">Enter Your Email : <br></label>
+                <input type="text" id="Email" name="Email" placeholder="Enter your Email" autofocus><br><br>
+                <label for="Password">Enter Your Password : <br></label>
+                <input type="text" id="Password" name="Password" placeholder="Enter your Password" autofocus><br>
+            </div>
+            <div>
+                <h3>Gender:</h3>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <label>
+                    <h3>Skills :</h3>
+                </label>
+                <input type="checkbox">C language<br>
+                <input type="checkbox">HTML and CSS<br>
+                <input type="checkbox">DBMS <br>
+                <input type="checkbox">Statistic<br><br>
+            </div>
+            <select name="subjects">
+                <option value="select">select</option>
+                <option value="Student">Student</option>
+                <option value="Graduated">Graduated</option>
+                <option value="Corporative">corporative</option>
+                <option value="Employee">Employee</option>
+            </select>
+            </div><br><br>
+            <div>
+                <textarea name="comment" rows="4" cols="55"> Enter your comment here.........
+            </textarea>
+            </div>
+            <input type="Submit" value="Submit">
+        </form>
+    </fieldset>
+</body>
+
+</html>
